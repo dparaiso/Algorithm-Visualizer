@@ -1,0 +1,32 @@
+.arrayContainer {
+    display: position;
+    margin-top: 15%;
+    width: 100%; 
+    align-items: center;
+    justify-content: column;
+    flex-direction: column;
+}
+
+.arrayBar {
+    width: 4px; 
+    background-color: pink;
+    display: inline-block; 
+    margin: 0 1px; 
+}
+
+button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #00526e ; /* Green */
+    color: white;
+}
